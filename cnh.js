@@ -1,14 +1,13 @@
-const idade = 15
+const idade = 16;
 const maiorIdade = idade >= 18;
 const possuiCNH = false;
 
-const podedirigir = maiorIdade && possuiCNH; //and
-console.log('Pode viajar sozinho?', podedirigir);
+const podeDigirir = maiorIdade && possuiCNH;
+console.log('Pode viajar sozinho?', podeDigirir);
 
-const podeViajarSozinho = maiorIdade || possuiCNH
+const podeViajarSozinho = maiorIdade || possuiCNH;
 console.log('Pode viajar sozinho?', podeViajarSozinho);
 
-const precisadeacompanhante = !maiorIdade;
-console.log('precisa de acompanhante?', precisadeacompanhante);
+const precisaAcompanhante = !maiorIdade
 
-
+console.log('Precisa de acompanhante?', precisaAcompanhante)
